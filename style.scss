@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'mothproofscriptregular';
+    src: url('./fonts/Mothproof_Script-webfont.eot');
+    src: url('./fonts/Mothproof_Script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Mothproof_Script-webfont.woff') format('woff'),
+         url('./fonts/Mothproof_Script-webfont.ttf') format('truetype'),
+         url('./fonts/Mothproof_Script-webfont.svg#mothproofscriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/lone-wolf.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 0px -2px 2px black;
+    font-family: 'mothproofscriptregular';
+    width: 100vw;
+    
+    nav{
+        width: 100vw;
+        position: fixed;
+        font-size: 1.8em;
+        background-color: rgba(73, 73, 73, 0.397);
+
+        ul{
+            display: inline;
+
+            
+        }
+        
+        li{
+            display: inline;
+            margin-left: 20px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover {
+                transition: 1s;
+                background-color: rgb(36, 36, 36);
+            }
+        }
+    }
+    
+    header {
+        height: 25vh;
+        width: 100vw;
+        padding-top: 12vh;
+        text-align: center;
+        font-size: 1.5em;
+        background-color: rgba(73, 73, 73, 0.397);
+    }
+    
+    #realisation {
+        width: 100vw;
+        height: 400px;
+        
+        h2{
+           text-align: center;
+        }
+        #realBox {
+            position: relative;
+            
+            img {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+            }
+            #slide1 {
+                opacity: 1;
+                transition: 1s;
+                z-index: 5;
+            }
+            #slide2 {
+                opacity: 0;
+                transition: 1s;
+            }
+            #slide3 {
+                opacity: 0;
+                transition: 1s;
+            }
+            #slide4 {
+                opacity: 0;
+                transition: 1s;
+            }
+
+        }
+    }
+    #passion {
+        text-align: center;
+        
+        #blockimg {
+            text-align: left;
+            padding: 10px;
+        }
+        #blockimg1 {
+            text-align: right;
+            padding: 30px;
+        }
+        #blockimg2 {
+            text-align: left;
+            padding: 10px;
+        }
+    }
+    #parcour {
+        margin: 5%;
+        font-size: 1.2;
+    }
+    footer {
+        width: 100vw;
+        height: 30px;
+        background-color: rgba(73, 73, 73, 0.397);
+        font-size: 1.2em;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        a:hover {
+            transition: 1s;
+            background-color: rgb(36, 36, 36);
+        }
+    }
+    }
+
+
+
